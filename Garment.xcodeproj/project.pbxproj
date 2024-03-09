@@ -12,7 +12,18 @@
 		729971F92B9CB98700666E60 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729971F82B9CB98700666E60 /* Item.swift */; };
 		729971FB2B9CB98800666E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729971FA2B9CB98800666E60 /* Assets.xcassets */; };
 		729971FE2B9CB98800666E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729971FD2B9CB98800666E60 /* Preview Assets.xcassets */; };
+		7299720B2B9CB9AC00666E60 /* GarmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299720A2B9CB9AC00666E60 /* GarmentTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7299720C2B9CB9AC00666E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 729971E92B9CB98700666E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 729971F02B9CB98700666E60;
+			remoteInfo = Garment;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		729971F12B9CB98700666E60 /* Garment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garment.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +32,19 @@
 		729971F82B9CB98700666E60 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		729971FA2B9CB98800666E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729971FD2B9CB98800666E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		729972082B9CB9AC00666E60 /* GarmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7299720A2B9CB9AC00666E60 /* GarmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		729971EE2B9CB98700666E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729972052B9CB9AC00666E60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				729971F32B9CB98700666E60 /* Garment */,
+				729972092B9CB9AC00666E60 /* GarmentTests */,
 				729971F22B9CB98700666E60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				729971F12B9CB98700666E60 /* Garment.app */,
+				729972082B9CB9AC00666E60 /* GarmentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +92,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		729972092B9CB9AC00666E60 /* GarmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				7299720A2B9CB9AC00666E60 /* GarmentTests.swift */,
+			);
+			path = GarmentTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -90,6 +120,24 @@
 			productReference = 729971F12B9CB98700666E60 /* Garment.app */;
 			productType = "com.apple.product-type.application";
 		};
+		729972072B9CB9AC00666E60 /* GarmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7299720E2B9CB9AC00666E60 /* Build configuration list for PBXNativeTarget "GarmentTests" */;
+			buildPhases = (
+				729972042B9CB9AC00666E60 /* Sources */,
+				729972052B9CB9AC00666E60 /* Frameworks */,
+				729972062B9CB9AC00666E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7299720D2B9CB9AC00666E60 /* PBXTargetDependency */,
+			);
+			name = GarmentTests;
+			productName = GarmentTests;
+			productReference = 729972082B9CB9AC00666E60 /* GarmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +150,10 @@
 				TargetAttributes = {
 					729971F02B9CB98700666E60 = {
 						CreatedOnToolsVersion = 15.1;
+					};
+					729972072B9CB9AC00666E60 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 729971F02B9CB98700666E60;
 					};
 				};
 			};
@@ -119,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				729971F02B9CB98700666E60 /* Garment */,
+				729972072B9CB9AC00666E60 /* GarmentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +183,13 @@
 			files = (
 				729971FE2B9CB98800666E60 /* Preview Assets.xcassets in Resources */,
 				729971FB2B9CB98800666E60 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		729972062B9CB9AC00666E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +206,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		729972042B9CB9AC00666E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7299720B2B9CB9AC00666E60 /* GarmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7299720D2B9CB9AC00666E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 729971F02B9CB98700666E60 /* Garment */;
+			targetProxy = 7299720C2B9CB9AC00666E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		729971FF2B9CB98800666E60 /* Debug */ = {
@@ -326,6 +402,42 @@
 			};
 			name = Release;
 		};
+		7299720F2B9CB9AC00666E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WY9AX8R5R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisefremov.GarmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Garment";
+			};
+			name = Debug;
+		};
+		729972102B9CB9AC00666E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WY9AX8R5R2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.denisefremov.GarmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Garment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Garment";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +455,15 @@
 			buildConfigurations = (
 				729972022B9CB98800666E60 /* Debug */,
 				729972032B9CB98800666E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7299720E2B9CB9AC00666E60 /* Build configuration list for PBXNativeTarget "GarmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7299720F2B9CB9AC00666E60 /* Debug */,
+				729972102B9CB9AC00666E60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
