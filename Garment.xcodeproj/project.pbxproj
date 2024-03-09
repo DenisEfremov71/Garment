@@ -13,6 +13,8 @@
 		729971FB2B9CB98800666E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729971FA2B9CB98800666E60 /* Assets.xcassets */; };
 		729971FE2B9CB98800666E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729971FD2B9CB98800666E60 /* Preview Assets.xcassets */; };
 		7299720B2B9CB9AC00666E60 /* GarmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299720A2B9CB9AC00666E60 /* GarmentTests.swift */; };
+		729972192B9CC27400666E60 /* AddGamentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729972182B9CC27400666E60 /* AddGamentView.swift */; };
+		7299721B2B9CC2D300666E60 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7299721A2B9CC2D300666E60 /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		729971FD2B9CB98800666E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		729972082B9CB9AC00666E60 /* GarmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GarmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7299720A2B9CB9AC00666E60 /* GarmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentTests.swift; sourceTree = "<group>"; };
+		729972182B9CC27400666E60 /* AddGamentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGamentView.swift; sourceTree = "<group>"; };
+		7299721A2B9CC2D300666E60 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				729972162B9CBA4A00666E60 /* Components */,
+				729972182B9CC27400666E60 /* AddGamentView.swift */,
 				729971F62B9CB98700666E60 /* GarmentListView.swift */,
 			);
 			path = Views;
@@ -145,6 +150,7 @@
 		729972162B9CBA4A00666E60 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				7299721A2B9CC2D300666E60 /* HeaderView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7299721B2B9CC2D300666E60 /* HeaderView.swift in Sources */,
 				729971F72B9CB98700666E60 /* GarmentListView.swift in Sources */,
 				729971F92B9CB98700666E60 /* Garment.swift in Sources */,
+				729972192B9CC27400666E60 /* AddGamentView.swift in Sources */,
 				729971F52B9CB98700666E60 /* GarmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
