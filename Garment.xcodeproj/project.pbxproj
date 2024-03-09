@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		729971F52B9CB98700666E60 /* GarmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729971F42B9CB98700666E60 /* GarmentApp.swift */; };
-		729971F72B9CB98700666E60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729971F62B9CB98700666E60 /* ContentView.swift */; };
+		729971F72B9CB98700666E60 /* GarmentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729971F62B9CB98700666E60 /* GarmentListView.swift */; };
 		729971F92B9CB98700666E60 /* Garment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729971F82B9CB98700666E60 /* Garment.swift */; };
 		729971FB2B9CB98800666E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729971FA2B9CB98800666E60 /* Assets.xcassets */; };
 		729971FE2B9CB98800666E60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 729971FD2B9CB98800666E60 /* Preview Assets.xcassets */; };
@@ -28,7 +28,7 @@
 /* Begin PBXFileReference section */
 		729971F12B9CB98700666E60 /* Garment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Garment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		729971F42B9CB98700666E60 /* GarmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentApp.swift; sourceTree = "<group>"; };
-		729971F62B9CB98700666E60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		729971F62B9CB98700666E60 /* GarmentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarmentListView.swift; sourceTree = "<group>"; };
 		729971F82B9CB98700666E60 /* Garment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Garment.swift; sourceTree = "<group>"; };
 		729971FA2B9CB98800666E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		729971FD2B9CB98800666E60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -137,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				729972162B9CBA4A00666E60 /* Components */,
-				729971F62B9CB98700666E60 /* ContentView.swift */,
+				729971F62B9CB98700666E60 /* GarmentListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				729971F72B9CB98700666E60 /* ContentView.swift in Sources */,
+				729971F72B9CB98700666E60 /* GarmentListView.swift in Sources */,
 				729971F92B9CB98700666E60 /* Garment.swift in Sources */,
 				729971F52B9CB98700666E60 /* GarmentApp.swift in Sources */,
 			);
